@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cachelot – Shaping the Future of Sperm Donation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta 
+    name="description" 
+    content="Cachelot is a next-generation sperm donor recruitment company, bridging cutting-edge data analytics with nationwide clinic partnerships."
+  />
+
+  <!-- Fonts: Montserrat for headings, Open Sans for body (example) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@300;400;600&display=swap" 
+    rel="stylesheet"
+  />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- GSAP (CDN) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+
+  <!-- App JS -->
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- WRAPPER FOR FADE-IN TRANSITION -->
+  <div class="page-wrapper">
+    
+    <!-- NAVIGATION -->
+    <header class="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">
+          <!-- Replace with your own logo -->
+          <img src="logo.png" alt="Cachelot Logo" />
+        </a>
+        <nav class="nav-links">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#donors">Donors</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Subtle line -->
+      <div class="nav-underline"></div>
+    </header>
+
+    <!-- FULLSCREEN HERO -->
+    <section id="home" class="hero-section">
+      <!-- Optional background video or image overlay -->
+      <div class="hero-bg">
+        <!-- For a background video, embed a <video> or <iframe> here 
+             If you prefer an image, set via CSS in styles.css -->
+      </div>
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <h1 class="hero-title">Shaping the Future <br> of Sperm Donation</h1>
+        <p class="hero-subtitle">
+          Cachelot leverages data-driven outreach & advanced AI to recruit top-tier donors 
+          and connect them with premier fertility clinics.
+        </p>
+        <a href="#donors" class="btn-primary">Become a Donor</a>
+      </div>
+      <!-- Scroll Cue (optional) -->
+      <div class="scroll-cue">SCROLL</div>
+    </section>
+
+    <main>
+      <!-- PARTNERS SECTION -->
+      <section id="partners" class="section section-dark fadein">
+        <div class="section-inner">
+          <h2 class="section-title">Trusted Partners</h2>
+          <p class="section-text">
+            We collaborate with some of the industry’s most respected cryobanks and clinics nationwide.
+          </p>
+
+          <!-- Showcase partners in a slider or grid -->
+          <div class="partners-grid">
+            <div class="partner-card">
+              <img src="partner1.png" alt="Partner 1" />
+              <h3>Fairfax Cryobank</h3>
+              <p>“Fairfax Cryobank has seen a 30% increase in qualified donors since partnering with Cachelot.”</p>
+            </div>
+            <div class="partner-card">
+              <img src="partner2.png" alt="Partner 2" />
+              <h3>Boston Fertility</h3>
+              <p>“Cachelot’s data-driven approach streamlined our recruiting, saving us time and money.”</p>
+            </div>
+            <div class="partner-card">
+              <img src="partner3.png" alt="Partner 3" />
+              <h3>Genesis Reproductive</h3>
+              <p>“Top-notch donors who fit our strict criteria—no more sifting through unqualified leads.”</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DONORS SECTION -->
+      <section id="donors" class="section fadein">
+        <div class="section-inner">
+          <h2 class="section-title">Become a Donor</h2>
+          <p class="section-text">
+            Your donation can change lives while you earn extra income. With Cachelot, the process is fast, transparent, and supported every step of the way.
+          </p>
+
+          <div class="donor-highlights">
+            <div class="highlight">
+              <h3>Streamlined Sign-Up</h3>
+              <p>Quick eligibility checks, minimal paperwork, and guaranteed confidentiality.</p>
+            </div>
+            <div class="highlight">
+              <h3>Nationwide Clinics</h3>
+              <p>We match you with the best location—no guesswork or excessive travel.</p>
+            </div>
+            <div class="highlight">
+              <h3>Competitive Compensation</h3>
+              <p>Earn from referrals and bonus payouts once approved. A real win-win scenario.</p>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn-secondary">Contact Us</a>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section section-dark fadein">
+        <div class="section-inner">
+          <h2 class="section-title">About Cachelot</h2>
+          <p class="section-text">
+            Founded by <strong>Luke Hawash</strong> in 2024, Cachelot aims to revolutionize the fertility industry with a modern, data-first recruitment model. 
+            We blend compassion, efficiency, and privacy to ensure donors and clinics enjoy a seamless experience.
+          </p>
+
+          <!-- Could add team photos or more advanced layout -->
+          <div class="team-grid">
+            <div class="team-member">
+              <img src="founder.jpg" alt="Luke Hawash" />
+              <h3>Luke Hawash</h3>
+              <p>Founder & CEO</p>
+            </div>
+            <div class="team-member">
+              <img src="advisor.jpg" alt="Advisor" />
+              <h3>Dr. Jane Roe</h3>
+              <p>Fertility Advisor</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- CONTACT / FOOTER -->
+    <footer id="contact" class="footer-section fadein">
+      <div class="footer-inner">
+        <div class="footer-content">
+          <h3>Contact Cachelot</h3>
+          <p>Interested in partnering or becoming a donor? We’d love to talk.</p>
+          <p>Email: <a href="mailto:info@cachelot.com">info@cachelot.com</a></p>
+          <p>Address: 907 South Congress Avenue, Austin, TX 78704</p>
+        </div>
+        
+        <div class="footer-nav">
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Investors</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-copyright">
+          &copy; 2025 Cachelot. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
